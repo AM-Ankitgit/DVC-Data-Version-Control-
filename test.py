@@ -11,9 +11,10 @@ data = {
 
 # Create a DataFrame
 df = pd.DataFrame(data)
+df.to_csv('data/data.csv',header=None)
 
 # Display the DataFrame
-print(df)
+# print(df)
 
 
 # commit c10ccfde2df63457ab838786014fbe4f50f901a9 (HEAD -> master)
