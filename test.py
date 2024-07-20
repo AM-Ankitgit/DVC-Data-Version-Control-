@@ -15,4 +15,3 @@ df = pd.DataFrame(data)
 # Display the DataFrame
 print(df)
 
-~
