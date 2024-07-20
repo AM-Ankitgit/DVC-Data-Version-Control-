@@ -15,3 +15,17 @@ df = pd.DataFrame(data)
 # Display the DataFrame
 print(df)
 
+
+# commit c10ccfde2df63457ab838786014fbe4f50f901a9 (HEAD -> master)
+# Author: Your Name <you@example.com>
+# Date:   Sat Jul 20 20:56:53 2024 +0530
+
+#     File adde
+
+# commit 6c0a7d15b50a95847e1b64f42b12487bac65e73a
+# Author: Your Name <you@example.com>
+# Date:   Sat Jul 20 20:56:00 2024 +0530
+
+
+# if you want to go previous commit the Use the
+# git checkout 86014f
