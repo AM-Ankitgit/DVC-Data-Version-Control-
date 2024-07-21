@@ -1,0 +1,25 @@
+schema: '2.0'
+stages:
+  stage_01:
+    cmd: python D:\study\Data_Version_Controlled(DVC)\data_reproducibity\stage_01.py
+    deps:
+    - path: data_reproducibity\stage_01.py
+      hash: md5
+      md5: 9b1b0300f5e2db89f651bca04833968f
+      size: 99
+    outs:
+    - path: artifact.txt
+      hash: md5
+      md5: 8e466197c4c493984cec910c8d8e306e
+      size: 43
+  stage_02:
+    cmd: python D:\study\Data_Version_Controlled(DVC)\data_reproducibity\stage_02.py
+    deps:
+    - path: artifact.txt
+      hash: md5
+      md5: 8e466197c4c493984cec910c8d8e306e
+      size: 43
+    - path: data_reproducibity\stage_02.py
+      hash: md5
+      md5: 4d1dfdbdad7081a18e51a2c555493331
+      size: 71

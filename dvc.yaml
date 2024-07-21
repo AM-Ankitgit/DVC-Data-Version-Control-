@@ -1,0 +1,26 @@
+# this file is use to create the configuration
+# file is a key component of DVC (Data Version Control), a version control system for data science and machine learning projects. 
+# This file is used to define the pipeline stages, their dependencies, and outputs.
+#  It helps in managing complex machine learning workflows by providing a clear structure for the project's data processing and training steps.
+
+
+stages:
+  stage_01:
+    cmd: python D:\study\Data_Version_Controlled(DVC)\data_reproducibity\stage_01.py
+    deps:
+        # this stage only depend on itself
+      - D:\study\Data_Version_Controlled(DVC)\data_reproducibity\stage_01.py
+    outs: 
+      - artifact.txt
+
+
+
+
+
+  stage_02:
+    cmd: python D:\study\Data_Version_Controlled(DVC)\data_reproducibity\stage_02.py
+    deps:
+        # this stage only depend on artifact and and itself
+      - artifact.txt
+      - D:\study\Data_Version_Controlled(DVC)\data_reproducibity\stage_02.py
+
