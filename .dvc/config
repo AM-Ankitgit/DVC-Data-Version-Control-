@@ -1,0 +1,4 @@
+[core]
+    remote = dvc_demp
+['remote "dvc_demp"']
+    url = D:/study/Data_Version_Controlled(DVC)/remotestorage
