@@ -74,5 +74,5 @@ Automating the workflow using tools like DVC, Make, or other workflow management
 ## Run the pipeline:
 - dvc repro  >>> generate the dvc.lock file
 ## Visualize the pipeline
-- dvc dag
+- dvc dag (Directed acyclic graph)
 

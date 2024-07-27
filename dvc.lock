@@ -21,5 +21,5 @@ stages:
       size: 43
     - path: data_reproducibity\stage_02.py
       hash: md5
-      md5: 4d1dfdbdad7081a18e51a2c555493331
-      size: 71
+      md5: 60e67a767403b074e2e720f1a390e3f5
+      size: 294
